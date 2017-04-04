@@ -1,0 +1,89 @@
+.main
+{
+	width:950px;
+	height:1200px;
+	background-image:url(img_2100.jpg);
+	background-size:cover;
+	background-position:center;
+	background-blend-mode:lighten;
+	margin:auto;
+	border-radius:5px;
+}
+.header
+{
+	width:950px;
+	height:10px;
+	background:;
+	margin:auto;
+}
+
+
+.menubar
+{
+	width:600px;
+	height:50px;
+	background:;
+		margin:auto;
+
+}
+
+.menubar ul li
+{
+	list-style-type:none;
+	display:inline;
+}
+
+.menubar ul li a
+{
+	color:black;
+	text-decoration:none;
+
+	background:blue;
+	padding:10px 20px 10px 20px;
+	margin:5px 20px 0px 5px;
+	border-radius:5px;
+}
+
+.menubar ul li a:hover
+{
+	background:#CCC;
+}
+
+.body
+{
+	width :300pt;
+	height:300pt;
+
+	margin: 10px;
+	padding:20%;
+	font-family:serif;
+	font-size:80px;
+	font-variant:normal;
+	color:black;
+
+}
+.section{
+	display:flex; flex-direction:row ; width:10px;
+}
+
+.body1
+{
+
+	margin:80px 0 0 0;
+	padding:30px 5px 40px 0;
+	font-family:comic "Comic Sans MS", cursive;
+	font-size:10px;
+	font-variant:normal;
+	color:#99FF00;
+
+}
+.body2
+{
+
+}
+
+.contact1
+{
+	height:auto;
+	width:1000px;
+}
