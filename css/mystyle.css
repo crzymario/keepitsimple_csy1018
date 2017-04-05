@@ -1,19 +1,19 @@
 .main
 {
-	width:950px;
-	height:1200px;
-	background-image:url(img_2100.jpg);
+
+	background-image:url(scene.jpg);
 	background-size:cover;
+	background-repeat:no-repeat;
 	background-position:center;
-	background-blend-mode:lighten;
-	margin:auto;
-	border-radius:5px;
+	background-blend-mode:color-burn;
+	background-position: center;
+	border-radius:10px;
 }
 .header
 {
 	width:950px;
 	height:10px;
-	background:;
+
 	margin:auto;
 }
 
@@ -23,14 +23,14 @@
 	width:600px;
 	height:50px;
 	background:;
-		margin:auto;
+	margin:auto;
 
 }
 
 .menubar ul li
 {
 	list-style-type:none;
-	display:inline;
+	display:inline-flex;
 }
 
 .menubar ul li a
@@ -46,7 +46,7 @@
 
 .menubar ul li a:hover
 {
-	background:#CCC;
+	background:silver;
 }
 
 .body
@@ -54,36 +54,84 @@
 	width :300pt;
 	height:300pt;
 
-	margin: 10px;
+	margin: 50px 0 0 0;
 	padding:20%;
 	font-family:serif;
-	font-size:80px;
-	font-variant:normal;
+	font-size:30px;
 	color:black;
 
 }
-.section{
-	display:flex; flex-direction:row ; width:10px;
+section{
+	display:flex; flex-direction: row ; width:100px;text-align: center;
 }
 
 .body1
 {
-
-	margin:80px 0 0 0;
+width: 70%;
+	margin:0px 0 0 0;
 	padding:30px 5px 40px 0;
-	font-family:comic "Comic Sans MS", cursive;
-	font-size:10px;
-	font-variant:normal;
-	color:#99FF00;
+	font-size:7px;text-shadow:20px 20px;
 
+	color:black;box-shadow: 10px 10px;
 }
 .body2
 {
- position:top;
+background-image: url(myphoto.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size: cover;
+height:300px;
+width:300px;
+ margin:0px 0 0 180px ;
+ padding:30px	 0 0 550px;
+ border-radius:300px;
+transition-duration: 5s;
 }
 
+.body2:hover{
+
+	transform:rotateY(360deg);
+}
+.curriculum-vitae{
+	display: flex;
+flex-direction: row;
+}
+.curriculum-vitae div{
+	margin: 2%;
+	width: 30%;
+}
 .contact1
 {
 	height:auto;
 	width:1000px;
+}
+ fieldset{
+	 border-radius:10px;padding:10%;width:85%;margin:10px 10px 10px 10px;
+	 color:black;border-color:blue;border-style:solid;
+ }
+Footer{
+	display: flex;
+	flex-direction: column;
+
+}
+.top{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	color:white;
+}
+.top h2{
+	color:orange;text-shadow: 10px 10px 5px 5px;
+}
+.top div{width: 50%;}
+.bottom{text-align: center;}
+
+.top a
+{
+	text-decoration:none;color:white;
+}
+
+.information
+{
+	background-color:Blue;
 }
